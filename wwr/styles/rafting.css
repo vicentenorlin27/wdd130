@@ -32,6 +32,7 @@ header {
     align-items: center;
     background-color: var(--accent2-color);
     padding: 16px;
+    border-bottom: 5px solid var(--secondary-color);
 }
 
 header img {
@@ -39,10 +40,10 @@ header img {
     height: auto;
 }
 
-nav ul {
+header nav {
     display: flex;
     justify-content: space-around;
-    list-style: none;
+    align-items: center;
 }
 
 nav a {
@@ -50,6 +51,8 @@ nav a {
     color: var(--primary-color);
     font-weight: bold;
     padding: 8px 12px;
+    background-color: var(--accent1-color);
+    border-radius: 4px;
 }
 
 h1,
@@ -58,7 +61,6 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
 p,
 section,
 article {
@@ -136,10 +138,13 @@ footer {
     background-color: var(--accent2-color);
     padding: 16px;
     margin-top: 20px;
+    border-top: 5px solid var(--secondary-color);
 }
 
 .socialmedia a {
     text-decoration: none;
+    background-color: transparent;
+    padding: 0;
 }
 
 .socialmedia img {
