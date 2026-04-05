@@ -4,11 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact White Water Rafting Adventures for reservations, general inquiries, and website suggestions. Find our address, phone number, email, map, and team information.">
+    <meta name="author" content="Norlin Vicente">
     <title>Contact Us | White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <h1>Contact Page Coming Soon</h1>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-contact">
+            <h1>White Water Rafting Adventures</h1>
+            <p>123 River Adventure Lane</p>
+            <p>Riggins, Idaho 83549</p>
+            <p>+1 (208) 555-1234</p>
+            <p>info@whitewaterraftingadventures.com</p>
+        </section>
+
+        <section class="contact-grid">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps?q=Riggins,Idaho&output=embed"
+                  title="Map showing White Water Rafting Adventures location">
+                </iframe>
+            </div>
+
+            <div class="contact-form-box">
+                <form>
+                    <div class="form-row">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="fullname"
+                          placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email"
+                          required>
+                    </div>
+
+                    <div class="form-row form-purpose">
+                        <p>Message Purpose</p>
+                        <div class="radio-options">
+                            <div class="radio-group">
+                                <input type="radio" id="general" name="purpose"
+                                  value="general inquiry" required>
+                                <label for="general">General Inquiry</label>
+                            </div>
+
+                            <div class="radio-group">
+                                <input type="radio" id="reservation" name="purpose"
+                                  value="reservation question">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+
+                            <div class="radio-group">
+                                <input type="radio" id="suggestion" name="purpose"
+                                  value="website suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type here"
+                          required></textarea>
+                    </div>
+
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Sarah Johnson, General Manager">
+                    <figcaption>Sarah Johnson - General Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="David Smith, Lead River Guide">
+                    <figcaption>David Smith - Lead River Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Emily Davis, Reservations Specialist">
+                    <figcaption>Emily Davis - Reservations Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting Adventures | Norlin Vicente</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktok.svg" alt="TikTok">
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>

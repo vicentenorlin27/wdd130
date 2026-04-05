@@ -189,3 +189,150 @@ footer p {
     width: 32px;
     height: 32px;
 }
+
+/* Contact Page */
+
+.company-contact {
+    text-align: center;
+    margin: 30px 0;
+    line-height: 1.7;
+}
+
+.company-contact h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.company-contact p {
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 380px;
+    border: 2px solid var(--secondary-color);
+}
+
+.contact-form-box {
+    padding: 0;
+}
+
+form {
+    display: grid;
+    gap: 16px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: start;
+    gap: 10px;
+}
+
+.form-row label,
+.form-purpose p {
+    font-weight: bold;
+    color: #000;
+    padding-top: 10px;
+}
+
+.form-row input,
+.form-row textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-purpose {
+    grid-template-columns: 120px 1fr;
+}
+
+.radio-options {
+    display: grid;
+    gap: 12px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+.employees {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.employees h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employee-profiles figure {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid var(--secondary-color);
+}
+
+.employee-profiles figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
