@@ -40,7 +40,7 @@
             </div>
 
             <div class="contact-form-box">
-                <form>
+                <form action="#" method="post">
                     <div class="form-row">
                         <label for="fullname">Name</label>
                         <input type="text" id="fullname" name="fullname"
@@ -53,8 +53,9 @@
                           required>
                     </div>
 
-                    <div class="form-row form-purpose">
-                        <p>Message Purpose</p>
+                    <fieldset class="form-purpose">
+                        <legend>Message Purpose</legend>
+
                         <div class="radio-options">
                             <div class="radio-group">
                                 <input type="radio" id="general" name="purpose"
@@ -74,7 +75,7 @@
                                 <label for="suggestion">Website Suggestion</label>
                             </div>
                         </div>
-                    </div>
+                    </fieldset>
 
                     <div class="form-row">
                         <label for="message">Message</label>
